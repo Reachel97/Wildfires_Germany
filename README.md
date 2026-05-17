@@ -1,4 +1,9 @@
-Project Description
+Project Description:
+
+The app is launched at this link and can be accessed by everyone easily 
+
+https://reachel.shinyapps.io/Wildfire_Germany/
+
 This project presents an interactive Shiny dashboard for analyzing wildfire activity in Germany. It combines fire occurrence data with state and district boundary datasets to visualize where fires are concentrated, how they vary over time, and how fire characteristics such as brightness and confidence are distributed. The app includes an interactive point map, a district/state-level choropleth, a time-based filter, and analysis charts to help users explore wildfire patterns in a spatial and temporal context.
 
 Tools Used
