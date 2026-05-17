@@ -1,3 +1,8 @@
+
+<img width="1910" height="942" alt="image" src="https://github.com/user-attachments/assets/5427328d-aa54-4370-9d95-6db2a77489e4" />
+
+
+
 # Wildfire Monitoring in Germany 
 
 An interactive **R Shiny** dashboard for exploring wildfire activity across Germany between **2020 and 2023**. The app combines NASA satellite fire detections with administrative boundaries to reveal *where*, *when*, and *how intensely* fires have occurred — at both the state (*Bundesland*) and district (*Kreis*) level.
