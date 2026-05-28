@@ -5,7 +5,7 @@
 
 # Wildfire Monitoring in Germany 
 
-An interactive **R Shiny** dashboard for exploring wildfire activity across Germany between **2020 and 2023**. The app combines NASA satellite fire detections with administrative boundaries to reveal *where*, *when*, and *how intensely* fires have occurred — at both the state (*Bundesland*) and district (*Kreis*) level.
+An interactive **R Shiny** dashboard for exploring wildfire activity across Germany between **2020 and 2023**. The app combines NASA satellite fire detections with administrative boundaries to reveal *where*, *when*, and *how intensely* fires have occurred - at both the state (*Bundesland*) and district (*Kreis*) level.
 
 🌐 **Live app:** [reachel.shinyapps.io/Wildfire_Germany](https://reachel.shinyapps.io/Wildfire_Germany/)
 
@@ -23,13 +23,13 @@ Germany has seen increasing wildfire activity in recent years, driven by drier s
 
 ## Features
 
-- **Interactive point map** — every fire detection plotted by coordinates, colored by confidence class and sized by brightness.
-- **Choropleth maps** — fire counts aggregated at the state and district level via spatial joins.
-- **Time-series animation** — a date slider lets you replay fire activity across the study period.
-- **Statistical filters** — view only points above the mean, median, or one standard deviation of brightness/confidence.
-- **Year and confidence filters** — narrow the data down to specific years (2020–2023) or confidence categories (Very Low → Very High).
-- **Analysis charts** — interactive `plotly` charts for time series, brightness distribution, and confidence-vs-brightness scatter.
-- **Searchable data table** — full record-level view of the filtered dataset, powered by `DT`.
+- **Interactive point map** - every fire detection plotted by coordinates, colored by confidence class and sized by brightness.
+- **Choropleth maps** - fire counts aggregated at the state and district level via spatial joins.
+- **Time-series animation** - a date slider lets you replay fire activity across the study period.
+- **Statistical filters** - view only points above the mean, median, or one standard deviation of brightness/confidence.
+- **Year and confidence filters** - narrow the data down to specific years (2020–2023) or confidence categories (Very Low → Very High).
+- **Analysis charts** - interactive `plotly` charts for time series, brightness distribution, and confidence-vs-brightness scatter.
+- **Searchable data table** - full record-level view of the filtered dataset, powered by `DT`.
 
 ---
 
@@ -37,7 +37,7 @@ Germany has seen increasing wildfire activity in recent years, driven by drier s
 
 | Dataset | Description | Source |
 |---|---|---|
-| `Fires_Germany.csv` | Active fire detections (MODIS Collection 6.1) for Germany, 2020–2023. Columns include `acq_date`, `latitude`, `longitude`, `brightness`, `confidence`. | [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/) — Fire Information for Resource Management System |
+| `Fires_Germany.csv` | Active fire detections (MODIS Collection 6.1) for Germany, 2020–2023. Columns include `acq_date`, `latitude`, `longitude`, `brightness`, `confidence`. | [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/) - Fire Information for Resource Management System |
 | `Germany_Boundary/States.geojson` | Boundaries of the 16 German federal states (*Bundesländer*). | Public German administrative boundary dataset |
 | `Germany_Boundary/gadm41_DEU_2.json` | District-level (*Kreis* / Level-2) administrative boundaries for Germany. | [GADM v4.1](https://gadm.org/) |
 
@@ -48,13 +48,13 @@ Germany has seen increasing wildfire activity in recent years, driven by drier s
 ## Tech Stack
 
 - **R**
-- **Shiny** — web app framework
-- **leaflet** — interactive maps
-- **sf** — spatial joins between fire points and administrative polygons
-- **dplyr**, **lubridate** — data wrangling and date handling
-- **ggplot2** + **plotly** — interactive charts
-- **DT** — searchable data tables
-- **shinyBS** — UI popovers and tooltips
+- **Shiny** - web app framework
+- **leaflet** - interactive maps
+- **sf** - spatial joins between fire points and administrative polygons
+- **dplyr**, **lubridate** - data wrangling and date handling
+- **ggplot2** + **plotly** - interactive charts
+- **DT** - searchable data tables
+- **shinyBS** - UI popovers and tooltips
 
 ---
 
@@ -95,7 +95,7 @@ Wildfires_Germany/
 
 ## Key Findings
 
-- Wildfire activity is **not evenly distributed** across Germany — detections cluster especially in eastern states (Brandenburg, Saxony, Mecklenburg-Vorpommern), where drier climates and large pine forests create more fire-prone conditions.
+- Wildfire activity is **not evenly distributed** across Germany - detections cluster especially in eastern states (Brandenburg, Saxony, Mecklenburg-Vorpommern), where drier climates and large pine forests create more fire-prone conditions.
 - A clear **seasonal signal** is visible in the time-series view: detections concentrate strongly in the summer months.
 - Higher-brightness detections tend to come with **higher confidence**, supporting the reliability of the algorithm's stronger signals.
 - The district-level choropleth reveals that a small number of *Kreise* contribute a disproportionate share of total detections.
@@ -114,7 +114,7 @@ Wildfires_Germany/
 
 ## Author
 
-**Reachel Sabir** — [@Reachel97](https://github.com/Reachel97)
+**Reachel Sabir** - [@Reachel97](https://github.com/Reachel97)
 
 ---
 
